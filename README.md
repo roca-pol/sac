@@ -462,3 +462,6 @@ Both networks had an architecture of 2 hidden layers in all experiments because 
 The init_delay parameter of SAC was almost always set to 10000 in order to let the buffer fill up a bit, and also to enforce some initial exploration since the first actions are expected to be random (with the networks weights initialized randomly).
 
 Besides, I could not achieve any interesting results with the MountainCar environment because the agent did not seem to be able to reach the goal, and developing a useful policy depended too much on that act (I did not experiment as much with it either).
+
+---
+### SAC was [proposed](https://arxiv.org/abs/1801.01290) by T. Haarnoja et al (CS294-112 Fall 2018)
